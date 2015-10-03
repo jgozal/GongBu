@@ -1,0 +1,15 @@
+body{
+	background-color: #f4f4f4 !important;
+}
+
+#editor {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:50px;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    padding: 3.8em 5em 3.8em 5em;
+}
