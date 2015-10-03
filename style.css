@@ -13,3 +13,24 @@ body{
     font-size: 1.2em;
     padding: 3.8em 5em 3.8em 5em;
 }
+
+.navbar-image{
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 30px;
+}
+
+#file{
+	background-image: url("Assets/File Icon.png");
+}
+
+#rules{
+	background-image: url("Assets/Edit Icon.png");
+}
+
+#options{
+	background-image: url("Assets/Options Icon.png");
+}
+
+

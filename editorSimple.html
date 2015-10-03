@@ -31,16 +31,16 @@
 		      <ul class="nav navbar-nav">
 		        <li class="active">
 		        	<a href="#">
-		        		<img class="img-responsive" alt="File" src="Assets/File Icon.png">
+		        		<div id="file" class="navbar-image"></div>
 		        		<span class="sr-only">(current)</span>
 		        	</a>
 		        </li>
 		        <li>
 		        	<a href="">
-		        		<img alt="Rules" src="">
+		        		<div id="rules" class="navbar-image"></div>
 		    		</a>
 		    	</li>
-		        <li><a href="#">Options</a></li>
+		      
 		        <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
@@ -88,7 +88,6 @@
 			$('#editor').css('width', width*0.5);
 
 			$('#editor').keyup(function(){getContent()});
-
 
 			function getContent () {
 				var content =  $('#editor').val();
