@@ -23,9 +23,9 @@ jQuery(document).ready(function($) {
         text =  $('#editor').val();
         
         for (key in user) {
-    regex = new RegExp(user[key], 'g');
-    text = text.replace(regex, html[key]);
-    $('#translator').html(text);;
+            regex = new RegExp(user[key], 'g');
+            text = text.replace(regex, html[key]);
+            $('#translator').html(text);;
     };
 
 

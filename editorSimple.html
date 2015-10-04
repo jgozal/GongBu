@@ -76,18 +76,34 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+		<div id = "table-container">
+			<div id = "table-row">
+				<div id = "left">
+		 			<textarea id="editor"></textarea> 
+		 		</div>
+		 		<div id = "right">
+		 			<div id="translator"></div>
+		 		</div>
+	 		</div>
+ 		</div>
 
- 		<textarea id="editor" autofocus></textarea> 
-
- 		<div id="translator"></div>
+<!--  		<table id="grid"> 
+ 			<tr>
+ 				<td><textarea id="editor" autofocus></textarea> </td>
+ 				<td>hai :)</td>
+ 				<td><div id="translator"></div></td>
+ 			</tr>
+		</table>  -->
 
  		<script>
 
  			var height = $(window).height();   // returns height of browser viewport
 			var width = $(window).width();   // returns width of browser viewport
-
+			$('#table-container').css('width', width);
 			$('#editor').css('height', height*1.5);
 			$('#editor').css('width', width*0.42);
+			$('#right').css('width', width*0.5);
+			$('#translator').css('width', width*0.42);
 
 		
  		</script>

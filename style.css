@@ -35,8 +35,26 @@ body{
 
 #translator {
 	background-color: white;
-	
+	word-wrap: break-word;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
 
+#left, #right {
+	display: table-cell;
+	padding-right: 5em;
+}
+
+#table-container {
+    display: table;
+    }
+
+#table-row  {
+	display: table-row;
 }
 
 
