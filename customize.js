@@ -8,16 +8,16 @@ jQuery(document).ready(function($) {
         italics: 'ii',
         blue:'b1',
         title_font_size:'tt',
-        highlight_yellow: "hl"
+        highlight_yellow: "yb"
     };
 
     var html = {
-        normal:"<p style= 'color:black; font-size:25px; font-weight:normal'>",
-        strong: "<strong>",
-        italics: "<i>",
-        blue: "<p style= 'color:blue'>",
-        title_font_size:"<h1>",
-        highlight_yellow:"<p style= 'background-color:yellow'>"
+        normal:"<spam style= 'color:black; font-size:25px; font-style:normal !important; font-weight:normal !important;'>",
+        strong: "<spam> <strong>",
+        italics: "<spam><i>",
+        blue: "<spam><p style= 'color:blue'>",
+        title_font_size:"<spam><h1>",
+        highlight_yellow:"<spam><p style= 'background-color:yellow'>"
     }
 
     var regex = null;
