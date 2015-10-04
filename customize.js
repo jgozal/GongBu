@@ -14,18 +14,17 @@ jQuery(document).ready(function($) {
         green: "<p style= 'color:green'>"
     }
 
-
     var regex = null;
 
-    $('#editor').keyup(function(){translateContent()});
+    $('#editor').keyup(function(){getContent()});
 
-        function translateContent () {
+        function getContent () {
         text =  $('#editor').val();
         
         for (key in user) {
             regex = new RegExp(user[key], 'g');
             text = text.replace(regex, html[key]);
-            $('#translator').html(text);;
+            $('#translator').html(text);
     };
 
 
