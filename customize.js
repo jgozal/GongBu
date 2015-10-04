@@ -3,15 +3,21 @@ jQuery(document).ready(function($) {
     var text = "";
     
     var user = { 
+        normal: 'nn',
         strong: 'bb',
         italics: 'ii',
-        green:'gg'
+        blue:'b1',
+        title_font_size:'tt',
+        highlight_yellow: "hly"
     };
 
     var html = {
+        normal:"<p style= 'color:black; font-size:25px; font-weight:normal'>",
         strong: "<strong>",
         italics: "<i>",
-        green: "<p style= 'color:green'>"
+        blue: "<p style= 'color:blue'>",
+        title_font_size:"<h1>",
+        highlight_yellow:"<p style= 'background-color:yellow'>"
     }
 
     var regex = null;
