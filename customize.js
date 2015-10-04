@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
         italics: 'ii',
         blue:'b1',
         title_font_size:'tt',
-        highlight_yellow: "hly"
+        highlight_yellow: "hl"
     };
 
     var html = {
