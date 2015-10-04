@@ -1,6 +1,8 @@
 #logo {
-	height: 130%;
-	width:35%;
+	height: 700%;
+	width:80%;
+	text-align: center;
+	margin-left: 10%;
 }
 
 #sideMenu {
@@ -53,12 +55,10 @@ hr {
 
   }
 
-  div #docitem {
-  	color: black;
-  	border: 3px solid black;
-  	height: 100px;
-  	width: 100px;
-  }
+#concept {
+	height: 70%;
+	width: 70%;
+}
 
 
 

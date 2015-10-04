@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WHACKnote</title>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="customize.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">GongBu</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active">
+		        	<a href="#">
+		        		<div id="file" class="navbar-image"></div>
+		        		<span class="sr-only">(current)</span>
+		        	</a>
+		        </li>
+		        <li>
+		        	<a href="prefs.html" onclick="window.open('prefs.html', 'newwindow', 'width=300, height=250'); return false;">
+		        		<div id="rules" class="navbar-image"></div>
+		    		</a>
+		    	</li>
+		      
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <form class="navbar-form navbar-left" role="search">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		      </form>
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li> <a href="editorSimpleHome.html">NOTES </a></li>
+		      	<li> <a href="editorSimple.html"> NEW </a></li>
+		        <li><a href="#"> LINK </a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div id = "table-container">
+			<div id = "table-row">
+				<div id = "left">
+		 			<textarea id="editor"></textarea> 
+		 		</div>
+		 		<div id = "right">
+		 			<div id="translator"></div>
+		 		</div>
+	 		</div>
+ 		</div>
+
+<!--  		<table id="grid"> 
+ 			<tr>
+ 				<td><textarea id="editor" autofocus></textarea> </td>
+ 				<td>hai :)</td>
+ 				<td><div id="translator"></div></td>
+ 			</tr>
+		</table>  -->
+ 		<script>
+
+ 			var height = $(window).height();   // returns height of browser viewport
+			var width = $(window).width();   // returns width of browser viewport
+			$('#table-container').css('width', width);
+			$('#editor').css('height', height*1.5);
+			$('#editor').css('width', width*0.42);
+			$('#right').css('width', width*0.5);
+			$('#translator').css('width', width*0.42);
+
+		
+ 		</script>
+
+
+	</body>
+</html>
