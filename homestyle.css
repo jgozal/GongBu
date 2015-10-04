@@ -1,5 +1,6 @@
-body {
-
+#logo {
+	height: 130%;
+	width:35%;
 }
 
 #sideMenu {
@@ -52,10 +53,11 @@ hr {
 
   }
 
-  #docitem {
+  div #docitem {
   	color: black;
-  	border-color: black;
-
+  	border: 3px solid black;
+  	height: 100px;
+  	width: 100px;
   }
 
 
