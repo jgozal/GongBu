@@ -5,7 +5,7 @@ body{
 #editor {
 
 	display: block;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom:50px;
@@ -33,4 +33,9 @@ body{
 	background-image: url("Assets/Options Icon.png");
 }
 
+#translator {
+	background-color: white;
+	
+
+}
 
