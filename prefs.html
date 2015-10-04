@@ -3,21 +3,79 @@
 	<head>
 		<title>WHACKnote prefs</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css">
+		 <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		 <style>
+		 body {
+
+		     padding-top: 25px;
+		     padding-right: 50px;
+    	padding-bottom: 25px;
+    	padding-left: 50px;
+		 }
+
+		 </style>
 	</head>
 	<body>
+	<table id = "grid" cellpadding="10">
+		<tr>
+		<!-- Create 4 sets of radio buttons. Change switch-values -->
+		<td>
+			<div class="btn-group">
+	              <button type="button" data-switch-set="biu" data-switch-value="mini" class="btn btn-default"><span class="glyphicon glyphicon-bold" aria-hidden="true"></span></button>
+	              <button type="button" data-switch-set="biu" data-switch-value="small" class="btn btn-default"><span class="glyphicon glyphicon-italic" aria-hidden="true"></span></button>
+	              <button type="button" data-switch-set="biu" data-switch-value="normal" class="btn btn-default"><span><u>U</u></span></button>
+	              <button type="button" data-switch-get="biu" class="btn btn-default">None</button>
+	        </div>
+	    </td>
+	    </tr>
 
-		<!-- Create 1 set of radio buttons. JQuery formatting not pretty -->
-		<form>
-	       <fieldset data-role="controlgroup">
-		       <legend>Style:</legend>
-		       <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2a" value="on" checked="checked">
-		       <label for="radio-choice-v-2a">Bold</label>
-		       <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2b" value="off">
-		       <label for="radio-choice-v-2b">Italics</label>
-		       <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2c" value="other">
-		       <label for="radio-choice-v-2c">Underline</label>
-		   </fieldset>
-		</form>
+	    <tr>
+	    <td>
+	        <div class="btn-group">
+	              <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><font size=3>A</font></button>
+	              <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><font size=4>A</font></button>
+	              <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><font size=5>A</font></button>
+	        </div>
+        </td>
+        </tr>
+
+
+		<tr>
+		<td>
+			    <div class="btn-group">
+	              <button type="button" data-switch-set="color" data-switch-value="mini" class="btn btn-default"><font size=3 color="red">A</font></button>
+	              <button type="button" data-switch-set="color" data-switch-value="mini" class="btn btn-default"><font size=3 color="green">A</font></button>
+	              <button type="button" data-switch-set="color" data-switch-value="mini" class="btn btn-default"><font size=3 color="blue">A</font></button>
+	        </div>
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        	<div class="btn-group">
+                <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><p style="background-color:#00FFFF"><font size=4>A</font></p></button>
+                <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><p style="background-color:yellow"><font size=4>A</font></p></button>
+                <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default"><p style="background-color:#C0C0C0"><font size=4>A</font></p></button>
+           </div>
+ 		</td>
+
+
+        </tr>
+
+                <tr>
+        <td>
+        <div class="form-group">
+		  <label for="usr">Key:</label>
+		  <input type="text" class="form-control" id="usr">
+		</div>
+		</td>
+		</tr>
+
+	</table>
+
+<button type="button" class="btn btn-success">Submit</button>
+
+
 
 	</body>
 </html>
