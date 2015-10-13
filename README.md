@@ -4,4 +4,4 @@ GongBu was inspired by the need to take notes in a more efficient manner. Visual
 
 GongBu allows you to customize your own shortcuts to format your notes in any way. By incorporating short and simple custom tags while taking notes, your notes automatically get formatted the way you want them to be formatted. In a way - it is your own markdown language, but with much more formatting possibilities than markdown.
 
-![alt tag](https://raw.githubusercontent.com/DevKiddo/GongBu/master/ai/screenshot.png)
+![alt tag](https://raw.githubusercontent.com/DevKiddo/GongBu/master/ai/screenshot.png?token=AJHi3itvyZSm-RSgu_J09xTdwWVdUVNnks5WJoD4wA%3D%3D)
